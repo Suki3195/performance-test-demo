@@ -1,0 +1,5 @@
+rootProject.name = 'performance-test-demo'
+include 'service'
+include 'domain'
+include 'repository'
+include 'performance-test'

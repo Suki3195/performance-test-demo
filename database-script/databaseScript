@@ -1,0 +1,15 @@
+create database user_registration;
+
+use user_registration;
+
+select database();
+
+create table user (
+ user_id BINARY(16) PRIMARY KEY,
+ user_name varchar(20) NOT NULL,
+ mobile_number char(10) NOT NULL
+);
+
+show tables in user_registration;
+
+describe user;
